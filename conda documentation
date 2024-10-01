@@ -1,0 +1,16 @@
+Conda documentation:
+
+In cdac: source source Conda/bin/activate
+cd swayamshree/
+ls
+Conda env list (To see the existing environments)
+conda create -n amber (To create an environment as amber)
+conda activate amber (To activate any environment)
+conda install python=3.6 numpy=1.17.2 (To install any version of package)
+conda remove -n amber –all (To remove the environment)
+conda deactivate (To deactivate conda environment)
+
+
+If we have environment.yml file for some package, we can use that to create the environment with the specified packages in that environment.yml file:
+conda env create -f environment.yml
+
